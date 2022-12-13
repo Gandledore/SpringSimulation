@@ -48,7 +48,7 @@ struct vect{
     }
 };
 std::ostream& operator<<(std::ostream& os,vect& v){
-    os << "(" <<v.x <<", "<<v.y<<", " << v.z<<")"; 
+    os <<v.x <<", "<<v.y<<", " << v.z; 
     return os;
 }
 #endif
